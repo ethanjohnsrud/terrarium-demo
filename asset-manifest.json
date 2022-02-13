@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/terrarium-demo/static/css/main.38630771.chunk.css",
+    "main.js": "/terrarium-demo/static/js/main.eb041d31.chunk.js",
+    "main.js.map": "/terrarium-demo/static/js/main.eb041d31.chunk.js.map",
+    "runtime-main.js": "/terrarium-demo/static/js/runtime-main.4225d225.js",
+    "runtime-main.js.map": "/terrarium-demo/static/js/runtime-main.4225d225.js.map",
+    "static/js/2.9665c051.chunk.js": "/terrarium-demo/static/js/2.9665c051.chunk.js",
+    "static/js/2.9665c051.chunk.js.map": "/terrarium-demo/static/js/2.9665c051.chunk.js.map",
+    "static/js/3.2152ba7f.chunk.js": "/terrarium-demo/static/js/3.2152ba7f.chunk.js",
+    "static/js/3.2152ba7f.chunk.js.map": "/terrarium-demo/static/js/3.2152ba7f.chunk.js.map",
+    "index.html": "/terrarium-demo/index.html",
+    "static/css/main.38630771.chunk.css.map": "/terrarium-demo/static/css/main.38630771.chunk.css.map",
+    "static/js/2.9665c051.chunk.js.LICENSE.txt": "/terrarium-demo/static/js/2.9665c051.chunk.js.LICENSE.txt",
+    "static/media/frog-logo.61394956.png": "/terrarium-demo/static/media/frog-logo.61394956.png",
+    "static/media/terrarium-buddies.3158d65c.jpg": "/terrarium-demo/static/media/terrarium-buddies.3158d65c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4225d225.js",
+    "static/js/2.9665c051.chunk.js",
+    "static/css/main.38630771.chunk.css",
+    "static/js/main.eb041d31.chunk.js"
+  ]
+}
