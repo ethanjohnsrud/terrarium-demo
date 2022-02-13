@@ -8,6 +8,9 @@ import{Provider} from 'react-redux';
 import {createStore, combineReducers} from 'redux';
 
 import defaultImage from './Background/terrarium-buddies.jpg';
+//MOCK DATA
+import DATA from './Assets-Mock-Data/data.json';
+
 
 
 //Action Creators (manipulate State) => Doing in Component | Traditional Method is to predefine here and import into component, just to send back to reducer
@@ -97,43 +100,27 @@ const store = createStore(allStateDomains,{});
 
 
 //Fetch Image
-setInterval(()=>{//console.log('fetching Image', store.getState().image.image);
-  axios.get(`${store.getState().serverURL}/${(window.innerHeight > window.innerWidth) ? 'image-portrait' : 'image-landscape'}/`, { responseType: "blob" })
-  .then((response) => {
-    store.dispatch({type: 'setImageInvisible'});
-    setTimeout(() => {
-      store.dispatch({type: 'setImage', payload: URL.createObjectURL(response.data)});//also sets image viable // CSS transitions
-    
-    }, store.getState().image.TRANSITION_INTERVAL/2);
-  })
-  .catch((error) => {
-      console.error(error);
-      // setImage(defaultImage);
-    });
-}, store.getState().image.IMAGE_INTERVAL+store.getState().image.TRANSITION_INTERVAL || 5000);
+
 
 //Fetch Data
 export const fetchData = async()=> { console.log(store.getState().serverURL);
-  return await axios.get(`${store.getState().serverURL}/data/`, { responseType: "json" })
-.then((res) => {const response = res.data;
-  store.dispatch({type: 'setData', payload: response});
-  localStorage.setItem("server", store.getState().serverURL.toString());
-  console.log('fetching Data', response);
-  setTimeout(()=>fetchData(), response ? (((response.timeNextEvaluation) - new Date().getTime())+30000) : (60*1000));
+  DATA.timeLastReading = new Date().getTime()-(15*60*1000)+(45*1000);
+  DATA.timeNextEvaluation = new Date().getTime()+(60*1000);
+  store.dispatch({type: 'setData', payload: DATA});
   return true;
-})
-.catch((error) => {
-    console.error(error);
-    store.dispatch({type: 'setData'});
-  setTimeout(()=>fetchData(), (60*1000));
-  return error.response ? error.response.status : false
-});}
+}
 
 const start = async() => {
   store.dispatch({type: 'setServerURL', payload: window.location.origin});
-  if(await fetchData() !== true) { store.dispatch({type: 'setServerURL', payload: localStorage.getItem("server")}); 
-    if(await fetchData() !== true) store.dispatch({type: 'setServerURL', payload: window.location.origin}); 
-  }}
+  fetchData();
+    setTimeout(()=>{ console.log('INITIATING LOW HUMIDITY ERROR');
+      DATA.minimumHumidityErrorCode = 2;
+      DATA.operatingHumidity = DATA.minimumHumidity - 3.27;
+      DATA.operatingTemperature = DATA.operatingTemperature + 0.72;
+      DATA.statusMessage = "Minimum Humidity Exceeded -> Responding accordingly by enabling \'Humidify\' and disabling \'Dehumidify\'\nOperating with current conditions.";
+      store.dispatch({type: 'setData', payload: DATA});
+    }, 60*1000);
+}
 start();
 
 ReactDOM.render(
