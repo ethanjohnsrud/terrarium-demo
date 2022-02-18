@@ -105,7 +105,14 @@ const store = createStore(allStateDomains,{});
 //Fetch Data
 export const fetchData = async()=> { console.log(store.getState().serverURL);
   DATA.timeLastReading = new Date().getTime()-(15*60*1000)+(45*1000);
-  DATA.timeNextEvaluation = new Date().getTime()+(60*1000);
+  DATA.timeNextEvaluation = new Date().getTime()+(45*1000);
+  //Controls
+  DATA.CONTROLS[0]['settings'][0]['until'] = DATA.timeNextEvaluation;
+  DATA.CONTROLS[1]['settings'][0]['until'] = new Date().setHours(20, 0, 0);
+  DATA.CONTROLS[2]['settings'][0]['until'] = new Date().setHours(18, 0, 0);
+  DATA.CONTROLS[3]['settings'][0]['until'] = DATA.timeNextEvaluation;
+  DATA.CONTROLS[4]['settings'][0]['until'] = DATA.timeNextEvaluation;
+  DATA.CONTROLS[6]['settings'][0]['until'] = new Date().getTime() + (73*60*1000);
   store.dispatch({type: 'setData', payload: DATA});
   return true;
 }
@@ -113,13 +120,68 @@ export const fetchData = async()=> { console.log(store.getState().serverURL);
 const start = async() => {
   store.dispatch({type: 'setServerURL', payload: window.location.origin});
   fetchData();
+  /*
+      MOCK LOW HUMIDITY
+  */
     setTimeout(()=>{ console.log('INITIATING LOW HUMIDITY ERROR');
+    DATA.timeLastReading = new Date().getTime();
+    DATA.timeNextEvaluation = new Date().getTime()+(15*60*1000);
       DATA.minimumHumidityErrorCode = 2;
       DATA.operatingHumidity = DATA.minimumHumidity - 3.27;
       DATA.operatingTemperature = DATA.operatingTemperature + 0.72;
       DATA.statusMessage = "Minimum Humidity Exceeded -> Responding accordingly by enabling \'Humidify\' and disabling \'Dehumidify\'\nOperating with current conditions.";
+      //Controls
+      DATA.CONTROLS[0]['settings'] = [
+        {
+            "reason": "Climate Cooling",
+            "set": 0,
+            "until": DATA.timeNextEvaluation
+        }
+    ];
+    DATA.CONTROLS[1]['settings'] = [
+      {
+          "reason": "Daytime",
+          "set": 0,
+          "until": new Date().setHours(20, 0, 0) 
+      }
+  ];
+  DATA.CONTROLS[2]['settings'] = [
+  {
+      "reason": "Schedule Grow\n",
+      "set": 1,
+      "until": new Date().setHours(18, 0, 0) 
+  }
+];
+DATA.CONTROLS[3]['settings'] = [
+    {
+        "reason": "ON : Severe Low Humidity",
+        "set": 1,
+        "until": DATA.timeNextEvaluation
+    }
+];
+DATA.CONTROLS[4]['settings'] = [
+  {
+      "reason": "OFF : Severe Low Humidity",
+      "set": 0,
+      "until": DATA.timeNextEvaluation
+  }
+];
+DATA.CONTROLS[5]['settings'] = [
+  {
+    "reason": "Default",
+    "set": 0,
+      "until": -1
+  }
+];
+DATA.CONTROLS[6]['settings'] = [
+  {
+    "reason": "ON : Severe Low Humidity",
+    "set": 1,
+      "until": DATA.timeNextEvaluation
+  }
+];
       store.dispatch({type: 'setData', payload: DATA});
-    }, 60*1000);
+    }, 45*1000);
 }
 start();
 
