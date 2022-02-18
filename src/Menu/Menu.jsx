@@ -44,9 +44,14 @@ const Menu = forwardRef((props, ref) => {
                 if(routeLocation.pathname == '/settings') routeHistory.push('/log');
                 else routeHistory.push('/settings');
             }}>
+
                     <img className='menu-icon' src={icon} />
                 <strong className='menu-icon-text'>Settings</strong>
             </div>
+            <Link to="/log" className='menu-icon-box' style={{ textDecoration: 'none' }}>
+                <img className='menu-icon' src={icon} />
+                <strong className='menu-icon-text'>Log</strong>
+            </Link>
         </div>
     </div>);
 });

@@ -80,14 +80,9 @@
             ],
             "settings": [
                 {
-                    "reason": "Nighttime",
-                    "set": 0,
-                    "until": 1644753600080
-                },
-                {
-                    "reason": "Climate Cooling",
-                    "set": 0,
-                    "until": 1644731491509
+                    "reason": "Climate Heating",
+                    "set": 1,
+                    "until": 1645126168124
                 },
                 {
                     "reason": "Default",
@@ -95,7 +90,7 @@
                     "until": -1
                 }
             ],
-            "operating": 0
+            "operating": 1
         },
         {
             "id": 1,
@@ -160,19 +155,19 @@
             ],
             "settings": [
                 {
-                    "reason": "Schedule Night\n",
-                    "set": 1,
-                    "until": 1644732000000
+                    "reason": "Daytime",
+                    "set": 0,
+                    "until": 1645156800975
                 },
                 {
-                    "reason": "Climate Cooling",
-                    "set": 0,
-                    "until": 1644731491509
+                    "reason": "Climate Heating",
+                    "set": 1,
+                    "until": 1645126168124
                 },
                 {
                     "reason": "Climate Dehumidifying",
                     "set": 1,
-                    "until": 1644731491509
+                    "until": 1645126168124
                 },
                 {
                     "reason": "Default",
@@ -243,9 +238,9 @@
             ],
             "settings": [
                 {
-                    "reason": "Nighttime",
-                    "set": 0,
-                    "until": 1644753600080
+                    "reason": "Schedule Grow\n",
+                    "set": 1,
+                    "until": 1636851600000
                 },
                 {
                     "reason": "Default",
@@ -253,7 +248,7 @@
                     "until": -1
                 }
             ],
-            "operating": 0
+            "operating": 1
         },
         {
             "id": 3,
@@ -318,7 +313,7 @@
                 {
                     "reason": "Climate Dehumidifying",
                     "set": 0,
-                    "until": 1644731491509
+                    "until": 1645126168124
                 },
                 {
                     "reason": "Default",
@@ -326,7 +321,7 @@
                     "until": -1
                 }
             ],
-            "operating": 0
+            "operating": 1
         },
         {
             "id": 4,
@@ -390,14 +385,14 @@
             ],
             "settings": [
                 {
-                    "reason": "Climate Cooling",
-                    "set": 1,
-                    "until": 1644731491509
+                    "reason": "Climate Heating",
+                    "set": 0,
+                    "until": 1645126168124
                 },
                 {
                     "reason": "Climate Dehumidifying",
                     "set": 1,
-                    "until": 1644731491509
+                    "until": 1645126168124
                 },
                 {
                     "reason": "Default",
@@ -469,11 +464,6 @@
             ],
             "settings": [
                 {
-                    "reason": "Nighttime",
-                    "set": 0,
-                    "until": 1644753600080
-                },
-                {
                     "reason": "Default",
                     "set": 0,
                     "until": -1
@@ -542,9 +532,14 @@
             ],
             "settings": [
                 {
+                    "reason": "Schedule Filtration\n",
+                    "set": 1,
+                    "until": 1635359400000
+                },
+                {
                     "reason": "Climate Dehumidifying",
                     "set": 0,
-                    "until": 1644731491509
+                    "until": 1645126168124
                 },
                 {
                     "reason": "Default",
@@ -552,7 +547,7 @@
                     "until": -1
                 }
             ],
-            "operating": 0
+            "operating": 1
         }
     ],
     "CLIMATE": [
