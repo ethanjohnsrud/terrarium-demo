@@ -1,0 +1,230 @@
+Issue Email Sent: 
+[10-01-2021 18:35:24] # QUERY ALL ERROR: 'SELECT * FROM readings WHERE time BETWEEN ? AND ? ORDER BY time DESC;' :: 1634953435780,1635043435780 => Error: SQLITE_ERROR: no such table: readings
+
+[10-01-2021 18:38:34] API :: Successful: RESETTING ENTIRE FILE SYSTEM -> Server will Terminate and Restart
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-01-2021 18:40:44] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-01-2021 18:46:07] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 400:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+
+[10-03-2021 11:47:07] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-03-2021 11:47:19] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-04-2021 19:12:55] API :: Successful: New Schedule Created: Morning : 1634986800000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-04-2021 19:31:48] API :: Successful: New Schedule Created: Grow : 1634904000000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-09-2021 21:44:03] API :: Successful: DECREASE Priority Schedule: 2
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-09-2021 21:47:36] API :: Successful: INCREASE Priority Schedule: 3
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-09-2021 21:48:18] API :: Successful: Schedule Updated: undefined :: Attribute: priority = 3
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-09-2021 21:50:29] API :: Successful: Schedule Updated: undefined :: Attribute: priority = 1
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-11-2021 20:08:01] API :: Successful: Initiating Sensor Testing for: 60000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-14-2021 20:32:58] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 404:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+
+[10-17-2021 20:51:16] API :: Successful: New Schedule Created: Morning Waterfall : 1634990400000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-17-2021 20:51:47] API :: Successful: New Schedule Created: Evening Waterfall : 1634950800000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-17-2021 22:10:49] API :: Successful: New Schedule Created: Night : 1634959800000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-17-2021 23:11:51] API :: Successful: New Schedule Created: Filtration : 1634956200000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-17-2021 23:13:35] API :: Successful: New Schedule Created: Cricket Venting : 1634983200000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-20-2021 23:24:16] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[10-20-2021 23:24:41] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 404:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[10-21-2021 0:06:06] API :: Successful: New Schedule Created: Toggle [Cricket] ON : 1634965566772
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 15:10:19] API :: Successful: New Schedule Created: Ventilation : 1634968800000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 15:24:15] This is an email test
+
+     > null = 191:92 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-23-2021 15:24:21] This is a log test
+
+     > null = 191:92 => file:///home/pi/terrarium/terrarium.mjs
+
+ Status Email Sent: 
+[10-23-2021 15:24:26] API :: Successful: Status Email Queued
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sending SUCCESS
+[10-23-2021 15:24:50] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-25-2021 7:26:36] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 404:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+ Status Email Sent: 
+[10-25-2021 7:37:35] API :: Successful: Status Email Queued
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+-> Email Sending SUCCESS
+[10-27-2021 18:11:12] API :: Successful: New Schedule Created: Immediate (W.F.A.P) : 1634971152794
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-27-2021 18:11:51] API :: Successful: New Schedule Created: Immediate [Cool] : 1634971191275
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-28-2021 12:24:28] API :: Successful: New Schedule Created: Toggle [Cricket] : 1634973868618
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-30-2021 12:52:28] API :: Successful: New Schedule Created: Toggle [Night] : 1634975548335
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[10-30-2021 3:06:01] API :: Successful: Postponing Next Evaluation for: 7200000
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-02-2021 1:26:36] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 404:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+ Status Email Sent: 
+[11-02-2021 1:37:35] API :: Successful: Status Email Queued
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-10-2021 12:44:53] API :: Successful: Replace Schedule: Immediate (W.F.A.P) : 1634971152794
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-12-2021 12:46:16] API :: Settings sensorMode Successfully Updated
+     > null = 348:9 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-12-2021 19:50:03] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-13-2021 20:00:58] API :: Successful: New Schedule Created: Toggle (W) : 1635037258196
+     > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+
+[11-14-2021 21:18:52] [#2] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-14-2021 21:19:05] [#1] SENSOR ERROR [Sensor is ON] :: Error: failed to read sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+
+Email Sent: 
+-> Email Sending SUCCESS
+[11-17-2021 14:57:18] API :: Successful: New Schedule Created: Immediate [Light] : 1635047837957
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-17-2021 14:57:40] API :: Successful: New Schedule Created: Immediate (W-V.F-C.V-W.F.A.P) : 1635047860659
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-17-2021 14:58:37] API :: Successful: Delete Schedule: 13
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-17-2021 14:35:32] API :: Successful: Delete Schedule: 22
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-19-2021 23:35:50] API :: Successful: New Schedule Created: Toggle (W.F.A.P) : 1635050150870
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-19-2021 23:36:11] API :: Successful: New Schedule Created: Immediate (C.V-W) : 1635050172000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-19-2021 23:36:23] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-19-2021 23:37:25] API :: Successful: Replace Schedule: Immediate (C.V-W) : 1635050172000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-22-2021 10:00:31] Sensor Disconnected
+DHT22 Sensor Failed Reading in Off Mode | [Sensor is currently OFF]
+Failed with Error: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+Operating with Default Values
+
+     > null = 105:53 => file:///home/pi/terrarium/backend/utility.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-22-2021 11:15:24] [#2] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-22-2021 11:15:31] [#1] SENSOR ERROR [Sensor is OFF] :: SENSOR Mode == 'OFF' -> Unable to Read Sensor
+
+     > null = 96:9 => file:///home/pi/terrarium/backend/utility.mjs
+     >> new Promise = null:null => null
+     >>> evaluateSensor = 46:63 => file:///home/pi/terrarium/backend/utility.mjs
+
+[11-24-2021 17:16:04] Terrarium Server Restarted
+Initialization Complete
+
+     > null = 407:1 => file:///home/pi/terrarium/terrarium.mjs
+
+Issue Email Sent: 
+-> Email Sending SUCCESS
+[11-24-2021 17:46:59] API :: Successful: Immediate-Evaluation has been Queued
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-24-2021 17:55:54] API :: Successful: Initiating Sensor Testing for: 60000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-30-2021 07:21:51] API :: Successful: Replace Schedule: Toggle (W.F.A.P) : 1635050150870
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
+
+[11-30-2021 07:22:27] API :: Successful: Replace Schedule: Immediate (C.V-W) : 1635050172000
+     > validate = 185:27 => file:///home/pi/terrarium/terrarium.mjs
