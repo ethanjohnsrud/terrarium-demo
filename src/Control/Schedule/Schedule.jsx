@@ -9,6 +9,9 @@ import Verify from '../../Verify';
 import '../../index.css';
 import './Schedule.css';
 
+//MOCK DATA
+import DEMO_SCHEDULES from '../../Assets-Mock-Data/schedules.json';
+
 const getButtonColor=(buttonText)=> (buttonText=='UPDATE' || buttonText=='') ? 'var(--main-color)' : (buttonText=='PASS' || buttonText=='INVALID' || buttonText=='FAILED') ? '#e8000d' : (buttonText=='PENDING' || buttonText=='BLANK') ? 'orange' : '#cc5500';
 
 const DropMenu = (props) => {
@@ -365,9 +368,17 @@ const Schedule = (props) => {
     }
 
     //API Referencing
-    const fetchSchedules = () => axios.get(`${SERVER_URL}/data-schedules/`).then((response) => { console.log('SCHEDULES', response.data.schedules);
-            setSCHEDULES(response.data.schedules);  calculateOccurrenceList(response.data.schedules);
-        }).catch((error) => {console.log('Failed to Fetch Schedule Information', error); return error.response ? error.response.status : false;});
+    const fetchSchedules = () => {
+        setSCHEDULES(DEMO_SCHEDULES['schedules'].map(s=>{
+            if(s.time == -1) s.time=(new Date().getTime()-(5*60*1000));
+            else if(s.time == 1) s.time=(new Date().getTime()+(25*60*1000));
+            else s.time+=(new Date().setHours(0,0,0));
+            return s;}));  calculateOccurrenceList(DEMO_SCHEDULES['schedules']);
+    }
+    
+    // axios.get(`${SERVER_URL}/data-schedules/`).then((response) => { console.log('SCHEDULES', response.data.schedules);
+    //         setSCHEDULES(response.data.schedules);  calculateOccurrenceList(response.data.schedules);
+    //     }).catch((error) => {console.log('Failed to Fetch Schedule Information', error); return error.response ? error.response.status : false;});
     useEffect(()=>fetchSchedules(),[]);
     // useEffect(()=>{console.log('SORTING', sortByTime, SCHEDULES); setSCHEDULES(sortByTime ? [...SCHEDULES.sort((a,b) => (a.time - b.time))] : [...SCHEDULES.sort((a,b) => (b.priority - a.priority))]);}, [sortByTime]);
 

@@ -1,0 +1,93 @@
+{
+    "schedules": [
+        {
+            "priority": 12,
+            "time": -1,
+            "title": "Ventilation",
+            "names": [
+                "Vent Fan"
+            ],
+            "duration": 900000,
+            "set": 1,
+            "repeat": 3600000
+        },
+        {
+            "priority": 6,
+            "time": 1,
+            "title": "Filtration",
+            "names": [
+                "Water Filter and Pump"
+            ],
+            "duration": 3600000,
+            "set": 1,
+            "repeat": 10800000
+        },
+        {
+            "priority": 7,
+            "time": 59400000,
+            "title": "Cricket Venting",
+            "names": [
+                "Cricket Vent"
+            ],
+            "duration": 420000,
+            "set": 1,
+            "repeat": 43200000
+        },
+        {
+            "priority": 4,
+            "time": 64800000,
+            "title": "Evening Waterfall",
+            "names": [
+                "Waterfall"
+            ],
+            "duration": 1800000,
+            "set": 1,
+            "repeat": 86400000
+        },
+        {
+            "priority": 5,
+            "time": 75600000,
+            "title": "Night",
+            "names": [
+                "Night Heat Lamp"
+            ],
+            "duration": 5400000,
+            "set": 1,
+            "repeat": 86400000
+        },    
+        {
+            "priority": 2,
+            "time": 108000000,
+            "title": "Morning",
+            "names": [
+                "Day Grow Light",
+                "Day Heat Lamp"
+            ],
+            "duration": 7200000,
+            "set": 1,
+            "repeat": 86400000
+        },
+        {
+            "priority": 3,
+            "time": 118800000,
+            "title": "Morning Waterfall",
+            "names": [
+                "Waterfall"
+            ],
+            "duration": 2700000,
+            "set": 1,
+            "repeat": 86400000
+        },
+        {
+            "priority": 1,
+            "time": 113400000,
+            "title": "Grow",
+            "names": [
+                "Day Grow Light"
+            ],
+            "duration": 46800000,
+            "set": 1,
+            "repeat": 86400000
+        }
+    ]
+}

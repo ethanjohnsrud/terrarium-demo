@@ -51,7 +51,7 @@ const ERRORBACKGROUNDCOLOR = 'darkred';
                     setSensorColor(previous => (maxError == 1 || previous == 'whitesmoke') ? ERRORBACKGROUNDCOLOR : (maxError > 1) ? 'whitesmoke' : getDefaultBackgroundColor()); 
     }, 1000);
 
-    const formatTemperature = (temp) => convertToFahrenheit ? (Math.round(((temp*(9/5)+32)) * 100) / 100) : temp;
+    const formatTemperature = (temp) => (Math.round((convertToFahrenheit ? ((temp*(9/5)+32)) : temp) * 100) / 100);
 
 
     const getSensor = () => (DATA.operatingTemperature && !showDetails()) ? <div className='none no-size'></div>
