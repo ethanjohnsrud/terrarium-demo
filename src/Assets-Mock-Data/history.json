@@ -1,0 +1,3441 @@
+[
+    {
+        "time": 1644676427001,
+        "hour": 8,
+        "temperature": 23.89,
+        "goalTemperature": 22.72,
+        "humidity": 94.69,
+        "goalHumidity": 81.69,
+        "active": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Schedule Morning\n",
+                        "set": 1,
+                        "until": 1644676200000
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644676411501
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Schedule Morning\n",
+                        "set": 1,
+                        "until": 1644676200000
+                    },
+                    {
+                        "reason": "Schedule Grow\n",
+                        "set": 1,
+                        "until": 1644717600000
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Climate Humidifying",
+                        "set": 1,
+                        "until": 1644676411501
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 1,
+                        "until": 1644676411501
+                    },
+                    {
+                        "reason": "Climate Humidifying",
+                        "set": 0,
+                        "until": 1644676411501
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Climate Humidifying",
+                        "set": 1,
+                        "until": 1644676411501
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Daytime",
+                        "set": 0,
+                        "until": 1644724800000
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644676411501
+                    },
+                    {
+                        "reason": "Climate Humidifying",
+                        "set": 0,
+                        "until": 1644676411501
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644673186525,
+        "hour": 7,
+        "temperature": 22.5,
+        "goalTemperature": 22.31,
+        "humidity": 93.5,
+        "goalHumidity": 82.69,
+        "active": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Schedule Morning\n",
+                        "set": 1,
+                        "until": 1644676200000
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644673171501
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Schedule Morning\n",
+                        "set": 1,
+                        "until": 1644676200000
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 1,
+                        "until": 1644673171501
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644673171501
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Schedule Filtration\n",
+                        "set": 1,
+                        "until": 1644674400000
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644673171501
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Daytime",
+                        "set": 0,
+                        "until": 1644724800527
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644673171501
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644673171501
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644673171501
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644669946527,
+        "hour": 6,
+        "temperature": 23.1,
+        "goalTemperature": 21.97,
+        "humidity": 92.4,
+        "goalHumidity": 81.63,
+        "active": [
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 1,
+                        "until": 1644669931501
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644669931501
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644669931501
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Daytime",
+                        "set": 0,
+                        "until": 1644724800526
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644669931501
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644669931501
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644669931501
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644669931501
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644666706535,
+        "hour": 5,
+        "temperature": 22.79,
+        "goalTemperature": 21.76,
+        "humidity": 94.4,
+        "goalHumidity": 78.73,
+        "active": [
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 1,
+                        "until": 1644666691500
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644666691500
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200525
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644666691500
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644666691500
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644666691500
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200525
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644666691500
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200525
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644666691500
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644663466526,
+        "hour": 4,
+        "temperature": 22.7,
+        "goalTemperature": 21.87,
+        "humidity": 96.3,
+        "goalHumidity": 74.53,
+        "active": [
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 1,
+                        "until": 1644663451499
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644663451499
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Schedule Filtration\n",
+                        "set": 1,
+                        "until": 1644663600000
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644663451499
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200000
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644663451499
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644663451499
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644663451499
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200000
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644663451499
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200000
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644658606536,
+        "hour": 3,
+        "temperature": 23.89,
+        "goalTemperature": 22.11,
+        "humidity": 99.9,
+        "goalHumidity": 69.84,
+        "active": [],
+        "inactive": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200522
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644658591497
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644658591497
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644658591497
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200522
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Schedule Night Calm\n",
+                        "set": 0,
+                        "until": 1644660000000
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644658591497
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Schedule Night Calm\n",
+                        "set": 0,
+                        "until": 1644660000000
+                    },
+                    {
+                        "reason": "Schedule Ventilation\n",
+                        "set": 1,
+                        "until": 1644657886522
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 1,
+                        "until": 1644658591497
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644658591497
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200522
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Schedule Night Calm\n",
+                        "set": 0,
+                        "until": 1644660000000
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644658591497
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644655366523,
+        "hour": 2,
+        "temperature": 24,
+        "goalTemperature": 22.47,
+        "humidity": 99.9,
+        "goalHumidity": 72.78,
+        "active": [],
+        "inactive": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200523
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644655351496
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644655351496
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644655351496
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200523
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Schedule Night Calm\n",
+                        "set": 0,
+                        "until": 1644660000000
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644655351496
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Schedule Night Calm\n",
+                        "set": 0,
+                        "until": 1644660000000
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 1,
+                        "until": 1644655351496
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644655351496
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200523
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Schedule Night Calm\n",
+                        "set": 0,
+                        "until": 1644660000000
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644655351496
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644652126522,
+        "hour": 1,
+        "temperature": 24.39,
+        "goalTemperature": 22.89,
+        "humidity": 99.9,
+        "goalHumidity": 75.13,
+        "active": [],
+        "inactive": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200520
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644652111496
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644652111496
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644652111496
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200520
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Schedule Night Calm\n",
+                        "set": 0,
+                        "until": 1644660000000
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644652111496
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Schedule Night Calm\n",
+                        "set": 0,
+                        "until": 1644660000000
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 1,
+                        "until": 1644652111496
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644652111496
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200520
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Schedule Night Calm\n",
+                        "set": 0,
+                        "until": 1644660000000
+                    },
+                    {
+                        "reason": "Schedule Filtration\n",
+                        "set": 1,
+                        "until": 1644652800000
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644652111496
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644648886521,
+        "hour": 0,
+        "temperature": 25.79,
+        "goalTemperature": 23.33,
+        "humidity": 82.4,
+        "goalHumidity": 77.83,
+        "active": [],
+        "inactive": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200522
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644648871496
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644648871496
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644648871496
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200522
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Schedule Night Calm\n",
+                        "set": 0,
+                        "until": 1644660000000
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644648871496
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Schedule Night Calm\n",
+                        "set": 0,
+                        "until": 1644660000000
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 1,
+                        "until": 1644648871496
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644648871496
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200522
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Schedule Night Calm\n",
+                        "set": 0,
+                        "until": 1644660000000
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644648871496
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644641615301,
+        "hour": 22,
+        "temperature": 24.79,
+        "goalTemperature": 24.18,
+        "humidity": 99.9,
+        "goalHumidity": 82.63,
+        "active": [
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Climate Heating",
+                        "set": 1,
+                        "until": 1644641600276
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644641600276
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Schedule Filtration\n",
+                        "set": 1,
+                        "until": 1644642000000
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644641600276
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200303
+                    },
+                    {
+                        "reason": "Climate Heating",
+                        "set": 1,
+                        "until": 1644641600276
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200303
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644641600276
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Climate Heating",
+                        "set": 0,
+                        "until": 1644641600276
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644641600276
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Nighttime",
+                        "set": 0,
+                        "until": 1644667200303
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644636755300,
+        "hour": 21,
+        "temperature": 25.29,
+        "goalTemperature": 24.54,
+        "humidity": 96.19,
+        "goalHumidity": 80.45,
+        "active": [
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Schedule Ventilation\n",
+                        "set": 1,
+                        "until": 1644636035318
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 1,
+                        "until": 1644636740275
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644636740275
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644636740275
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Daytime",
+                        "set": 0,
+                        "until": 1644638400318
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644636740275
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644636740275
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644636740275
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644636740275
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644633515299,
+        "hour": 20,
+        "temperature": 24.6,
+        "goalTemperature": 24.85,
+        "humidity": 91.9,
+        "goalHumidity": 78.7,
+        "active": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Climate Heating",
+                        "set": 1,
+                        "until": 1644633500273
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Daytime",
+                        "set": 0,
+                        "until": 1644638400772
+                    },
+                    {
+                        "reason": "Climate Heating",
+                        "set": 1,
+                        "until": 1644633500273
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644633500273
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644633500273
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Climate Heating",
+                        "set": 0,
+                        "until": 1644633500273
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644633500273
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644633500273
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644630275769,
+        "hour": 19,
+        "temperature": 25.79,
+        "goalTemperature": 25.03,
+        "humidity": 99.9,
+        "goalHumidity": 74.58,
+        "active": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Climate Heating",
+                        "set": 1,
+                        "until": 1644630260272
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Schedule Grow\n",
+                        "set": 1,
+                        "until": 1644631200000
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Schedule Filtration\n",
+                        "set": 1,
+                        "until": 1644631200000
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644630260272
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Daytime",
+                        "set": 0,
+                        "until": 1644638400298
+                    },
+                    {
+                        "reason": "Climate Heating",
+                        "set": 1,
+                        "until": 1644630260272
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644630260272
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644630260272
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Climate Heating",
+                        "set": 0,
+                        "until": 1644630260272
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644630260272
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644627035296,
+        "hour": 18,
+        "temperature": 26.39,
+        "goalTemperature": 25.27,
+        "humidity": 99.9,
+        "goalHumidity": 71.06,
+        "active": [
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "ON : Severe High Temperature",
+                        "set": 1,
+                        "until": 1644625415771
+                    },
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644625415771
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 1,
+                        "until": 1644627020272
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644627020272
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644625415771
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644627020272
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644625415771
+                    },
+                    {
+                        "reason": "Daytime",
+                        "set": 0,
+                        "until": 1644638400771
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644627020272
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644627020272
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644625415771
+                    },
+                    {
+                        "reason": "Schedule Grow\n",
+                        "set": 1,
+                        "until": 1644631200000
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644625415771
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644627020272
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644625415771
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644625415771
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644627020272
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644623795297,
+        "hour": 17,
+        "temperature": 24.89,
+        "goalTemperature": 25.46,
+        "humidity": 91,
+        "goalHumidity": 66.84,
+        "active": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Climate Heating",
+                        "set": 1,
+                        "until": 1644623780272
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Schedule Grow\n",
+                        "set": 1,
+                        "until": 1644631200000
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Daytime",
+                        "set": 0,
+                        "until": 1644638400772
+                    },
+                    {
+                        "reason": "Climate Heating",
+                        "set": 1,
+                        "until": 1644623780272
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644623780272
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644623780272
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Climate Heating",
+                        "set": 0,
+                        "until": 1644623780272
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644623780272
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644623780272
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644618935770,
+        "hour": 16,
+        "temperature": 24.5,
+        "goalTemperature": 25.62,
+        "humidity": 94.09,
+        "goalHumidity": 64.09,
+        "active": [
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "ON : Severe High Temperature",
+                        "set": 1,
+                        "until": 1644617315297
+                    },
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644617315297
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 1,
+                        "until": 1644618920271
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644618920271
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644617315297
+                    },
+                    {
+                        "reason": "Schedule Heat Day\n",
+                        "set": 1,
+                        "until": 1644620400000
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644618920271
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644617315297
+                    },
+                    {
+                        "reason": "Daytime",
+                        "set": 0,
+                        "until": 1644638400297
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644618920271
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644618920271
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644617315297
+                    },
+                    {
+                        "reason": "Schedule Heat Day\n",
+                        "set": 1,
+                        "until": 1644620400000
+                    },
+                    {
+                        "reason": "Schedule Grow\n",
+                        "set": 1,
+                        "until": 1644631200000
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644617315297
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644618920271
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644617315297
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644617315297
+                    },
+                    {
+                        "reason": "Toggle (W.F.A.P)",
+                        "set": 1,
+                        "until": 1644620196810
+                    },
+                    {
+                        "reason": "Schedule Filtration\n",
+                        "set": 1,
+                        "until": 1644620400000
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644618920271
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644615695770,
+        "hour": 15,
+        "temperature": 29.5,
+        "goalTemperature": 25.79,
+        "humidity": 87.19,
+        "goalHumidity": 62.01,
+        "active": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Schedule Heat Day\n",
+                        "set": 1,
+                        "until": 1644620400000
+                    },
+                    {
+                        "reason": "Climate Heating",
+                        "set": 1,
+                        "until": 1644615680269
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Schedule Heat Day\n",
+                        "set": 1,
+                        "until": 1644620400000
+                    },
+                    {
+                        "reason": "Schedule Grow\n",
+                        "set": 1,
+                        "until": 1644631200000
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "ON : Extreme Low Temperature",
+                        "set": 1,
+                        "until": 1644615680269
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Toggle (W.F.A.P)",
+                        "set": 1,
+                        "until": 1644620196810
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644615680269
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Daytime",
+                        "set": 0,
+                        "until": 1644638400295
+                    },
+                    {
+                        "reason": "Climate Heating",
+                        "set": 1,
+                        "until": 1644615680269
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644615680269
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Schedule Day  Calm\n",
+                        "set": 0,
+                        "until": 1644616800000
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644615680269
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Schedule Day  Calm\n",
+                        "set": 0,
+                        "until": 1644616800000
+                    },
+                    {
+                        "reason": "Schedule Ventilation\n",
+                        "set": 1,
+                        "until": 1644614975295
+                    },
+                    {
+                        "reason": "Climate Heating",
+                        "set": 0,
+                        "until": 1644615680269
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644615680269
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644612455294,
+        "hour": 14,
+        "temperature": 24.89,
+        "goalTemperature": 25.56,
+        "humidity": 91.5,
+        "goalHumidity": 63.02,
+        "active": [
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "ON : Severe High Temperature",
+                        "set": 1,
+                        "until": 1644610835294
+                    },
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644610835294
+                    },
+                    {
+                        "reason": "Schedule Day  Calm\n",
+                        "set": 0,
+                        "until": 1644616800000
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 1,
+                        "until": 1644612440269
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644612440269
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644610835294
+                    },
+                    {
+                        "reason": "Schedule Heat Day\n",
+                        "set": 1,
+                        "until": 1644620400000
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644612440269
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644610835294
+                    },
+                    {
+                        "reason": "Daytime",
+                        "set": 0,
+                        "until": 1644638400294
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644612440269
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644612440269
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644610835294
+                    },
+                    {
+                        "reason": "Schedule Heat Day\n",
+                        "set": 1,
+                        "until": 1644620400000
+                    },
+                    {
+                        "reason": "Schedule Grow\n",
+                        "set": 1,
+                        "until": 1644631200000
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644610835294
+                    },
+                    {
+                        "reason": "Schedule Day  Calm\n",
+                        "set": 0,
+                        "until": 1644616800000
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644612440269
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644610835294
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "OFF : Severe High Temperature",
+                        "set": 0,
+                        "until": 1644610835294
+                    },
+                    {
+                        "reason": "Toggle (W.F.A.P)",
+                        "set": 1,
+                        "until": 1644620196810
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644612440269
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644609215293,
+        "hour": 13,
+        "temperature": 27.6,
+        "goalTemperature": 25.17,
+        "humidity": 88.4,
+        "goalHumidity": 66.67,
+        "active": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Immediate Day",
+                        "set": 1,
+                        "until": 1644607613838
+                    },
+                    {
+                        "reason": "Schedule Heat Day\n",
+                        "set": 1,
+                        "until": 1644620400000
+                    },
+                    {
+                        "reason": "Climate Heating",
+                        "set": 1,
+                        "until": 1644609200268
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Immediate Day",
+                        "set": 1,
+                        "until": 1644607613838
+                    },
+                    {
+                        "reason": "Schedule Heat Day\n",
+                        "set": 1,
+                        "until": 1644620400000
+                    },
+                    {
+                        "reason": "Schedule Grow\n",
+                        "set": 1,
+                        "until": 1644631200000
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Immediate Day",
+                        "set": 1,
+                        "until": 1644607613838
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Toggle (W.F.A.P)",
+                        "set": 1,
+                        "until": 1644620196810
+                    },
+                    {
+                        "reason": "Schedule Filtration\n",
+                        "set": 1,
+                        "until": 1644609600000
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644609200268
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Daytime",
+                        "set": 0,
+                        "until": 1644638400293
+                    },
+                    {
+                        "reason": "Climate Heating",
+                        "set": 1,
+                        "until": 1644609200268
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644609200268
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Schedule Day  Calm\n",
+                        "set": 0,
+                        "until": 1644616800000
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644609200268
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Schedule Day  Calm\n",
+                        "set": 0,
+                        "until": 1644616800000
+                    },
+                    {
+                        "reason": "Climate Heating",
+                        "set": 0,
+                        "until": 1644609200268
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644609200268
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644604355294,
+        "hour": 12,
+        "temperature": 25.5,
+        "goalTemperature": 24.49,
+        "humidity": 99.9,
+        "goalHumidity": 69.98,
+        "active": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Climate Heating",
+                        "set": 1,
+                        "until": 1644604340267
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Schedule Grow\n",
+                        "set": 1,
+                        "until": 1644631200000
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Daytime",
+                        "set": 0,
+                        "until": 1644638400295
+                    },
+                    {
+                        "reason": "Climate Heating",
+                        "set": 1,
+                        "until": 1644604340267
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644604340267
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644604340267
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Climate Heating",
+                        "set": 0,
+                        "until": 1644604340267
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644604340267
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644604340267
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644601115295,
+        "hour": 11,
+        "temperature": 23.79,
+        "goalTemperature": 24.08,
+        "humidity": 94,
+        "goalHumidity": 76.09,
+        "active": [
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Schedule Grow\n",
+                        "set": 1,
+                        "until": 1644631200000
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 1,
+                        "until": 1644601100267
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644601100267
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644601100267
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Daytime",
+                        "set": 0,
+                        "until": 1644638400294
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644601100267
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644601100267
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644601100267
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644601100267
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644597875292,
+        "hour": 10,
+        "temperature": 24.7,
+        "goalTemperature": 23.6,
+        "humidity": 99.9,
+        "goalHumidity": 78.9,
+        "active": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Climate Heating",
+                        "set": 1,
+                        "until": 1644597860267
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Schedule Grow\n",
+                        "set": 1,
+                        "until": 1644631200000
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Schedule Filtration\n",
+                        "set": 1,
+                        "until": 1644598800000
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644597860267
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Daytime",
+                        "set": 0,
+                        "until": 1644638400295
+                    },
+                    {
+                        "reason": "Climate Heating",
+                        "set": 1,
+                        "until": 1644597860267
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644597860267
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644597860267
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Climate Heating",
+                        "set": 0,
+                        "until": 1644597860267
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644597860267
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644594635293,
+        "hour": 9,
+        "temperature": 23.2,
+        "goalTemperature": 23.24,
+        "humidity": 91.69,
+        "goalHumidity": 80.73,
+        "active": [
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Schedule Grow\n",
+                        "set": 1,
+                        "until": 1644631200000
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Schedule Ventilation\n",
+                        "set": 1,
+                        "until": 1644593915293
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 1,
+                        "until": 1644594620267
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644594620267
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644594620267
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Daytime",
+                        "set": 0,
+                        "until": 1644638400293
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644594620267
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644594620267
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644594620267
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644594620267
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time": 1644591395291,
+        "hour": 8,
+        "temperature": 24.7,
+        "goalTemperature": 22.72,
+        "humidity": 91.5,
+        "goalHumidity": 81.69,
+        "active": [
+            {
+                "name": "Day Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Schedule Morning\n",
+                        "set": 1,
+                        "until": 1644589800000
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644591380266
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Day Grow Light",
+                "settings": [
+                    {
+                        "reason": "Schedule Morning\n",
+                        "set": 1,
+                        "until": 1644589800000
+                    },
+                    {
+                        "reason": "Schedule Grow\n",
+                        "set": 1,
+                        "until": 1644631200000
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Vent Fan",
+                "settings": [
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 1,
+                        "until": 1644591380266
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644591380266
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "name": "Night Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Daytime",
+                        "set": 0,
+                        "until": 1644638400292
+                    },
+                    {
+                        "reason": "Climate Cooling",
+                        "set": 0,
+                        "until": 1644591380266
+                    },
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 1,
+                        "until": 1644591380266
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644591380266
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Extra Heat Lamp",
+                "settings": [
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            },
+            {
+                "name": "Water Filter and Pump",
+                "settings": [
+                    {
+                        "reason": "Climate Dehumidifying",
+                        "set": 0,
+                        "until": 1644591380266
+                    },
+                    {
+                        "reason": "Default",
+                        "set": 0,
+                        "until": -1
+                    }
+                ]
+            }
+        ]
+    }
+]

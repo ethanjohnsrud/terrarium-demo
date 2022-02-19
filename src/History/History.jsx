@@ -8,6 +8,10 @@ import SettingsButton from '../Settings/SettingsButton';
 import '../index.css';
 import './History.css';
 
+//MOCK DATA
+import DEMO_HISTORY from '../Assets-Mock-Data/history.json';
+import DEMO_CLIMATE from '../Assets-Mock-Data/climate.json';
+
 
 const History = (props) => {
     const SERVER_URL = useSelector(root => root.serverURL);
@@ -31,11 +35,16 @@ const History = (props) => {
     const getDuration = (ms) => `${Math.floor(ms/60000)}:${Math.abs(ms)%60000<10000?'0':''}${Math.floor((Math.abs(ms)%60000)/1000)}`;
     
     const updateHistory = async() => {
-        axios.get(`${SERVER_URL}/data-climate/`).then((response) => { setClimate(response.data.climate);  console.log('CLIMATE', response.data);
-                    }).catch((error) => console.log('Failed to Fetch Climate Information', error));
-        return await axios.get(`${SERVER_URL}/data-history/`)
-                    .then((response)=>{setDayList(response.data);  console.log('HISTORY', response.data); return 'LOADING'})
-                    .catch((error)=>error.response ? error.response.status : false);;
+        setClimate(DEMO_CLIMATE['climate']);
+        DEMO_HISTORY.forEach((d,i)=>d.time=(new Date().getTime()-(i*60*60*1000)))
+        setDayList(DEMO_HISTORY);  
+        return 'LOADING';
+
+        // axios.get(`${SERVER_URL}/data-climate/`).then((response) => { setClimate(response.data.climate);  console.log('CLIMATE', response.data);
+        //             }).catch((error) => console.log('Failed to Fetch Climate Information', error));
+        // return await axios.get(`${SERVER_URL}/data-history/`)
+        //             .then((response)=>{setDayList(response.data);  console.log('HISTORY', response.data); return 'LOADING'})
+        //             .catch((error)=>error.response ? error.response.status : false);;
     }
     useEffect(()=>updateHistory(),[]);
     
