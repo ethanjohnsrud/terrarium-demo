@@ -6,6 +6,9 @@ import Verify from '../Verify';
 import '../index.css';
 import './Climate.css';
 
+//MOCK DATA
+import DEMO_CLIMATE from '../Assets-Mock-Data/climate.json';
+
 const getButtonColor=(buttonText)=>(buttonText=='') ? 'transparent' : (buttonText=='UPDATE') ? 'var(--main-color)' : (buttonText=='PASS' || buttonText=='INVALID' || buttonText=='FAILED') ? '#e8000d' : (buttonText=='PENDING' || buttonText=='BLANK') ? 'orange' : '#cc5500';
 
 const Climate = (props) => {
@@ -18,10 +21,16 @@ const Climate = (props) => {
     const [verification, setVerification] = useState(undefined);
 
 //API Referencing
-    const fetchClimate = () => axios.get(`${SERVER_URL}/data-climate/`).then((response) => { console.log('CLIMATE', response.data);
-        setCLIMATE(response.data.climate);  setSaveButtonText('');
-        setRange({maximumTemperature: response.data.maximumTemperature, maximumHumidity: response.data.maximumHumidity, minimumTemperature: response.data.minimumTemperature, minimumHumidity: response.data.minimumHumidity});
-    }).catch((error) => console.log('Failed to Fetch Climate Information', error));
+    const fetchClimate = () => {
+        setCLIMATE(DEMO_CLIMATE['climate']);  setSaveButtonText('');
+        setRange({maximumTemperature: DEMO_CLIMATE['maximumTemperature'], maximumHumidity: DEMO_CLIMATE['maximumHumidity'], minimumTemperature: DEMO_CLIMATE['minimumTemperature'], minimumHumidity: DEMO_CLIMATE['minimumHumidity']});
+    }
+    
+    
+    // axios.get(`${SERVER_URL}/data-climate/`).then((response) => { console.log('CLIMATE', response.data);
+    //     setCLIMATE(response.data.climate);  setSaveButtonText('');
+    //     setRange({maximumTemperature: response.data.maximumTemperature, maximumHumidity: response.data.maximumHumidity, minimumTemperature: response.data.minimumTemperature, minimumHumidity: response.data.minimumHumidity});
+    // }).catch((error) => console.log('Failed to Fetch Climate Information', error));
     useEffect(()=>fetchClimate(),[temperatureMode]);
 
     const sendChanges = (password) => {setVerification(undefined); 

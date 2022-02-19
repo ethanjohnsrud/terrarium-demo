@@ -129,6 +129,10 @@ Issue Email Sent:
 [10-30-2021 3:06:01] API :: Successful: Postponing Next Evaluation for: 7200000
      > validate = 182:27 => file:///home/pi/terrarium/terrarium.mjs
 
+[11-01-2021 11:55:00] # QUERY RUN ERROR: 'UPDATE schedules SET time = ? WHERE priority = ?;' :: 1645072200000,5 => Error: SQLITE_BUSY: database is locked
+     > null = 24:30 => file:///home/pi/terrarium/backend/database.mjs
+     >> async Object.databaseProgressSchedule = 123:16 => file:///home/pi/terrarium/backend/database.mjs
+
 [11-02-2021 1:26:36] Terrarium Server Restarted
 Initialization Complete
 

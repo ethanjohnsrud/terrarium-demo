@@ -1,0 +1,176 @@
+{
+    "climate": [
+        {
+            "hour": 0,
+            "temperature": 23.33,
+            "temperatureAverage": 24.19,
+            "humidity": 77.83,
+            "humidityAverage": 86.22
+        },
+        {
+            "hour": 1,
+            "temperature": 22.89,
+            "temperatureAverage": 24.6,
+            "humidity": 75.13,
+            "humidityAverage": 91.15
+        },
+        {
+            "hour": 2,
+            "temperature": 22.47,
+            "temperatureAverage": 24.67,
+            "humidity": 72.78,
+            "humidityAverage": 89.77
+        },
+        {
+            "hour": 3,
+            "temperature": 22.11,
+            "temperatureAverage": 24.6,
+            "humidity": 69.84,
+            "humidityAverage": 91.23
+        },
+        {
+            "hour": 4,
+            "temperature": 21.87,
+            "temperatureAverage": 23.61,
+            "humidity": 74.53,
+            "humidityAverage": 76.9
+        },
+        {
+            "hour": 5,
+            "temperature": 21.76,
+            "temperatureAverage": 23.04,
+            "humidity": 78.74,
+            "humidityAverage": 84.36
+        },
+        {
+            "hour": 6,
+            "temperature": 21.97,
+            "temperatureAverage": 23.06,
+            "humidity": 81.63,
+            "humidityAverage": 86.02
+        },
+        {
+            "hour": 7,
+            "temperature": 22.31,
+            "temperatureAverage": 23.72,
+            "humidity": 82.69,
+            "humidityAverage": 80.57
+        },
+        {
+            "hour": 8,
+            "temperature": 22.72,
+            "temperatureAverage": 23.56,
+            "humidity": 81.69,
+            "humidityAverage": 80.89
+        },
+        {
+            "hour": 9,
+            "temperature": 23.24,
+            "temperatureAverage": 23.77,
+            "humidity": 80.74,
+            "humidityAverage": 86.57
+        },
+        {
+            "hour": 10,
+            "temperature": 23.6,
+            "temperatureAverage": 23.79,
+            "humidity": 78.9,
+            "humidityAverage": 86.8
+        },
+        {
+            "hour": 11,
+            "temperature": 24.08,
+            "temperatureAverage": 24.15,
+            "humidity": 76.09,
+            "humidityAverage": 84.51
+        },
+        {
+            "hour": 12,
+            "temperature": 24.49,
+            "temperatureAverage": 24.42,
+            "humidity": 69.98,
+            "humidityAverage": 85.94
+        },
+        {
+            "hour": 13,
+            "temperature": 25.17,
+            "temperatureAverage": 24.98,
+            "humidity": 66.67,
+            "humidityAverage": 86.4
+        },
+        {
+            "hour": 14,
+            "temperature": 25.56,
+            "temperatureAverage": 25.16,
+            "humidity": 63.02,
+            "humidityAverage": 86.96
+        },
+        {
+            "hour": 15,
+            "temperature": 25.79,
+            "temperatureAverage": 25.28,
+            "humidity": 62.01,
+            "humidityAverage": 88.7
+        },
+        {
+            "hour": 16,
+            "temperature": 25.62,
+            "temperatureAverage": 25.28,
+            "humidity": 64.1,
+            "humidityAverage": 88.14
+        },
+        {
+            "hour": 17,
+            "temperature": 25.46,
+            "temperatureAverage": 25.12,
+            "humidity": 66.85,
+            "humidityAverage": 89.12
+        },
+        {
+            "hour": 18,
+            "temperature": 25.27,
+            "temperatureAverage": 24.86,
+            "humidity": 71.06,
+            "humidityAverage": 90.3
+        },
+        {
+            "hour": 19,
+            "temperature": 25.03,
+            "temperatureAverage": 24.76,
+            "humidity": 74.58,
+            "humidityAverage": 89.73
+        },
+        {
+            "hour": 20,
+            "temperature": 24.85,
+            "temperatureAverage": 24.38,
+            "humidity": 78.7,
+            "humidityAverage": 89.67
+        },
+        {
+            "hour": 21,
+            "temperature": 24.54,
+            "temperatureAverage": 24.32,
+            "humidity": 80.45,
+            "humidityAverage": 88.74
+        },
+        {
+            "hour": 22,
+            "temperature": 24.18,
+            "temperatureAverage": 24,
+            "humidity": 82.63,
+            "humidityAverage": 84.94
+        },
+        {
+            "hour": 23,
+            "temperature": 23.55,
+            "temperatureAverage": 23.94,
+            "humidity": 79.72,
+            "humidityAverage": 86.4
+        }
+    ],
+    "minimumTemperature": 21.5,
+    "maximumTemperature": 26,
+    "minimumHumidity": 60,
+    "maximumHumidity": 100
+}
